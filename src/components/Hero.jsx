@@ -7,7 +7,7 @@ import {
   FaLinkedin,
   FaDownload,
 } from 'react-icons/fa';
-import heroImg from '../assets/profile.jpg'; // Replace with your actual image
+import heroImg from '../assets/profile.jpg';
 
 const Hero = () => {
   return (
@@ -51,7 +51,7 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mt-6 justify-center md:justify-start">
             <a
-              href="/resume.pdf"
+              href="https://shafi2365.github.io/portfolio-site/resume.pdf"
               download
               className="bg-[#6c55ff] text-white py-2 px-4 rounded hover:bg-[#5843d2] flex items-center gap-2"
             >
@@ -76,7 +76,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Enhanced Quote Box */}
+        {/* Quote Box */}
         <div className="relative bg-gradient-to-br from-[#f0e9ff] to-[#e9e6ff] dark:from-[#29213f] dark:to-[#1e1b2e] p-6 rounded-2xl shadow-xl max-w-sm text-center mt-10 md:mt-0 border border-purple-300 dark:border-purple-700">
           <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-white dark:bg-[#1e1e1e] border-4 border-purple-400 w-10 h-10 flex items-center justify-center rounded-full shadow-md text-2xl text-purple-600 dark:text-purple-300">
             “
