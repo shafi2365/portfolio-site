@@ -7,7 +7,7 @@ import {
   FaLinkedin,
   FaDownload,
 } from 'react-icons/fa';
-import heroImg from '../assets/profile.jpg'; // Your profile image
+import heroImg from '../assets/profile.jpg'; // Replace with your actual image
 
 const Hero = () => {
   return (
@@ -51,7 +51,7 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mt-6 justify-center md:justify-start">
             <a
-              href="/resume.docx"
+              href="/resume.pdf"
               download
               className="bg-[#6c55ff] text-white py-2 px-4 rounded hover:bg-[#5843d2] flex items-center gap-2"
             >
