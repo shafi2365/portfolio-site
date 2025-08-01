@@ -44,7 +44,7 @@ const Hero = () => {
               <FaPhoneAlt /> +91 7051477648
             </div>
             <div className="flex items-center gap-2">
-              <FaEnvelope /> mohdshafi237311@gmail.com
+              <FaEnvelope /> mohdshafi2373@gmail.com
             </div>
           </div>
 

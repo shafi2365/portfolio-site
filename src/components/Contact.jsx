@@ -37,7 +37,7 @@ export default function Contact() {
               <ContactCard
                 icon={<Mail className="text-indigo-500" size={24} />}
                 title="Email Address"
-                value="mohdsafi237311@gmail.com"
+                value="mohdsafi2373@gmail.com"
               />
               <ContactCard
                 icon={<Github className="text-gray-800 dark:text-gray-100" size={24} />}
