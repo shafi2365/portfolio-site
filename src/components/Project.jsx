@@ -16,15 +16,17 @@ export default function Project() {
 
         {/* Project Card */}
         <div className="bg-white dark:bg-neutral-800 rounded-3xl shadow-lg overflow-hidden flex flex-col lg:flex-row">
-          {/* Left Side */}
+          {/* Left */}
           <div className="bg-gradient-to-br from-indigo-500 to-purple-500 text-white flex-1 p-10 flex flex-col items-center justify-center text-center">
             <div className="text-6xl mb-6">💜</div>
             <h3 className="text-2xl font-semibold">Heart Disease Prediction</h3>
-            <p className="mt-2 text-sm text-purple-200">ML-Powered Healthcare Solution</p>
+            <p className="mt-2 text-sm text-purple-200">
+              ML-Powered Healthcare Solution
+            </p>
             <div className="h-1 w-10 bg-white mt-3 rounded-full"></div>
           </div>
 
-          {/* Right Side */}
+          {/* Right */}
           <div className="flex-1 p-8 lg:p-10">
             <h4 className="text-xl font-semibold mb-3 text-black dark:text-white">
               💡 Heart Disease Prediction System
@@ -72,7 +74,7 @@ export default function Project() {
               </div>
             </div>
 
-            {/* Action Buttons */}
+            {/* Buttons */}
             <div className="flex flex-wrap gap-4">
               <a
                 href="https://github.com/shafi2365/heart-disease-prediction"
@@ -90,7 +92,7 @@ export default function Project() {
                 className="flex items-center gap-2 border border-red-500 text-red-500 px-4 py-2 rounded-lg text-sm hover:bg-red-50 dark:hover:bg-neutral-700 transition"
               >
                 <Rocket size={16} />
-                Live Demo
+                Live Demo <span className="text-xs ml-1"></span>
               </a>
             </div>
           </div>
