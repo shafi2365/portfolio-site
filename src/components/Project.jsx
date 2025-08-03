@@ -6,7 +6,9 @@ export default function Project() {
       <div className="max-w-6xl mx-auto px-6 md:px-10">
         {/* Title */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">Featured Project</h2>
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
+            Featured Project
+          </h2>
           <p className="text-gray-600 dark:text-gray-400">
             Real-world applications of machine learning in healthcare
           </p>
@@ -14,7 +16,7 @@ export default function Project() {
 
         {/* Project Card */}
         <div className="bg-white dark:bg-neutral-800 rounded-3xl shadow-lg overflow-hidden flex flex-col lg:flex-row">
-          {/* Left: Image Area */}
+          {/* Left: Visual */}
           <div className="bg-gradient-to-br from-indigo-500 to-purple-500 text-white flex-1 p-10 flex flex-col items-center justify-center text-center">
             <div className="text-6xl mb-6">💜</div>
             <h3 className="text-2xl font-semibold">Heart Disease Prediction</h3>
@@ -24,7 +26,7 @@ export default function Project() {
             <div className="h-1 w-10 bg-white mt-3 rounded-full"></div>
           </div>
 
-          {/* Right: Info */}
+          {/* Right: Description */}
           <div className="flex-1 p-8 lg:p-10">
             <h4 className="text-xl font-semibold mb-3 text-black dark:text-white">
               💡 Heart Disease Prediction System
@@ -39,18 +41,28 @@ export default function Project() {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-4 mb-6">
               <div className="bg-gray-100 dark:bg-neutral-700 text-center p-4 rounded-xl">
-                <p className="text-xl font-bold text-indigo-600 dark:text-indigo-400">95%+</p>
-                <p className="text-sm text-gray-600 dark:text-gray-300">Prediction Accuracy</p>
+                <p className="text-xl font-bold text-indigo-600 dark:text-indigo-400">
+                  95%+
+                </p>
+                <p className="text-sm text-gray-600 dark:text-gray-300">
+                  Prediction Accuracy
+                </p>
               </div>
               <div className="bg-gray-100 dark:bg-neutral-700 text-center p-4 rounded-xl">
-                <p className="text-xl font-bold text-indigo-600 dark:text-indigo-400">Real-time</p>
-                <p className="text-sm text-gray-600 dark:text-gray-300">Risk Assessment</p>
+                <p className="text-xl font-bold text-indigo-600 dark:text-indigo-400">
+                  Real-time
+                </p>
+                <p className="text-sm text-gray-600 dark:text-gray-300">
+                  Risk Assessment
+                </p>
               </div>
             </div>
 
             {/* Features */}
             <div className="mb-6">
-              <h5 className="font-semibold mb-2 text-black dark:text-white">🚀 Key Features:</h5>
+              <h5 className="font-semibold mb-2 text-black dark:text-white">
+                🚀 Key Features:
+              </h5>
               <ul className="list-disc ml-5 text-gray-600 dark:text-gray-300 space-y-1 text-sm">
                 <li>Intuitive user interface with secure authentication</li>
                 <li>Comprehensive patient data input system</li>
@@ -62,9 +74,18 @@ export default function Project() {
 
             {/* Tech Stack */}
             <div className="mb-6">
-              <h5 className="font-semibold mb-2 text-black dark:text-white">🧠 Technologies Used:</h5>
+              <h5 className="font-semibold mb-2 text-black dark:text-white">
+                🧠 Technologies Used:
+              </h5>
               <div className="flex flex-wrap gap-2">
-                {["Python", "NumPy", "Pandas", "Matplotlib", "Streamlit", "Scikit-learn"].map((tech, index) => (
+                {[
+                  "Python",
+                  "NumPy",
+                  "Pandas",
+                  "Matplotlib",
+                  "Streamlit",
+                  "Scikit-learn",
+                ].map((tech, index) => (
                   <span
                     key={index}
                     className="bg-purple-100 dark:bg-purple-700 text-purple-700 dark:text-white text-xs font-medium px-3 py-1 rounded-full"
@@ -87,7 +108,9 @@ export default function Project() {
                 View Source Code
               </a>
               <a
-                href="#"
+                href="https://heart-disease-prediction-1-gm2p.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 border border-red-500 text-red-500 px-4 py-2 rounded-lg text-sm hover:bg-red-50 dark:hover:bg-neutral-700 transition"
               >
                 <Rocket size={16} />
